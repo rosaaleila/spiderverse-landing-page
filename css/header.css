@@ -1,0 +1,21 @@
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.links-container {
+    display: flex;
+    gap: 2vw;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.links-container a {
+    text-shadow: 2px 2px 3px #000c;
+    padding: 8px;
+    transition: all .3s;
+}
+
+.links-container a:hover {
+    background-color: var(--accent-color);
+}

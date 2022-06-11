@@ -1,0 +1,9 @@
+body {
+    height: 100vh;
+    background:  linear-gradient(90deg, #000, #000c 45%, #0000), url(../imgs/fundo.jpg);
+    background-size: cover;
+    background-position: left;
+    padding: 50px 130px 50px 130px;
+    display: flex;
+    flex-direction: column;
+}

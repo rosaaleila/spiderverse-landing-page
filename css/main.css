@@ -1,0 +1,91 @@
+main {
+    flex-grow: 1;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content-container {
+    font-family: 'Mulish', sans-serif;
+    
+    display: flex;
+    flex-direction: column;
+
+    width: 40vw;
+}
+
+.movie-title, .movie-sub-title {
+    color: var(--accent-color);
+
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.movie-title {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: clamp(1vw, 55px, 5vw);
+    font-weight: bolder;
+}
+
+.movie-sub-title {
+    font-size: clamp(1vw, 30px, 4vw);
+    font-weight: 400;
+}
+
+.movie-desc {
+    font-size: clamp(1vw, 15px, 5vw);
+
+    margin-bottom: 20px;
+}
+
+.movie-button {
+    width: 40%;
+    height: 7vh;
+    border-radius: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    background-color: var(--accent-color);
+
+    transition: all .2s;
+}
+
+.movie-button:hover {
+    background-color: #fff;
+    color: var(--accent-color);
+
+    font-weight: 600;
+}
+
+
+.social-container ul {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.social-container li {
+    height: 40px;
+    width: 40px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 50%;
+    border: solid 2px #fff;
+
+    transition: all .3s;
+}
+
+.social-container i {
+    font-size: 1rem;
+}
+
+.social-container li:hover {
+    background-color: var(--accent-color);
+
+    border-color: var(--accent-color);
+}

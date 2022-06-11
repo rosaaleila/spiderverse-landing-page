@@ -1,0 +1,6 @@
+footer {
+    margin: auto;
+
+    font-family: Degular, sans-serif;
+    font-size: clamp(1vw, 15px, 5vw);
+}
