@@ -1,11 +1,18 @@
 header {
+    position: absolute;
+
     padding: 0 10px 0 10px;
+
+    margin-top: 40px;
+    margin-left: 130px;
+    margin-right: 130px;
 
     display: flex;
     justify-content: space-between;
     align-items: center;
 
-    height: 8vh;
+    width: 80vw;
+    height: 7vh;
 
     background-color: #FFF1;
 }
@@ -22,7 +29,6 @@ header > a {
 
 .links-container {
     display: flex;
-    align-items: center;
     gap: 2vw;
     font-family: 'Josefin Sans', sans-serif;
 }

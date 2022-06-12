@@ -5,7 +5,20 @@ body {
     background-size: cover;
     background-position: left;
 
-    padding: 0px 0px 30px 0px;
+    padding: 30px 130px 30px 130px;
     display: flex;
     flex-direction: column;
+}
+
+@media (max-width:800px) {
+    body{
+        padding: 30px 30px 30px 30px;
+
+        background-image: url(../imgs/fundo.jpg);
+        background-color: #0009;
+        background-blend-mode: darken;
+        background-position: center;
+        background-size: cover;
+
+    }
 }

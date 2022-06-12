@@ -1,6 +1,4 @@
 main {
-    padding: 0px 130px 0px 130px;
-
     flex-grow: 1;
 
     display: flex;
@@ -15,14 +13,14 @@ main {
     flex-direction: column;
 
     width: 40vw;
-    
-    margin-top: 20vh;
 }
 
 .movie-title, .movie-sub-title {
     color: var(--accent-color);
 
     font-family: 'Josefin Sans', sans-serif;
+    
+    text-shadow: 1px 1px 1px #000c;
 }
 
 .movie-title {
@@ -42,7 +40,7 @@ main {
 }
 
 .movie-button {
-    width: 40%;
+    width: 15vw;
     height: 7vh;
     border-radius: 20px;
 
@@ -53,6 +51,8 @@ main {
     background-color: var(--accent-color);
 
     transition: all .2s;
+
+    font-size: clamp(.5rem, 1rem, 4rem);
 }
 
 .movie-button:hover {
@@ -95,4 +95,36 @@ main {
 
 .social-container {
     margin-top: 20vh;
+}
+
+@media (max-width:800px) {
+    .content-container{
+        display: flex;
+        align-items: center;
+        width: 90vw;
+        justify-content: flex-end;
+        margin-bottom: 50px;
+    }
+    .movie-title {
+        font-size: 3rem;
+        transform: translateY(80px)
+    }
+    .movie-sub-title{
+        font-size: 1.5rem;
+        transform: translateY(80px);
+    }
+    .movie-desc{
+        display: none;
+    }
+    .social-container{
+        display: none;
+    }
+    .movie-button{
+        width: 80vw;
+        height: 10vh;
+
+        font-size: .7rem;
+
+        transform: translateY(20vh);
+    }
 }
