@@ -1,0 +1,10 @@
+footer {
+
+    font-family: Degular, sans-serif;
+    font-size: clamp(15px, 10px, .5vw);
+
+    color: #000;
+
+    padding: auto;
+    padding-bottom: 20px;
+}

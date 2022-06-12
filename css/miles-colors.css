@@ -1,0 +1,11 @@
+.name-line {
+    border: 2px solid var(--miles-color);
+}
+
+.character-name, .name-line {
+    color: var(--miles-color);
+}
+
+.picture-container {
+    background-color: var(--miles-color);
+}

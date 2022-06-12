@@ -1,4 +1,6 @@
 main {
+    padding: 0px 130px 0px 130px;
+
     flex-grow: 1;
 
     display: flex;
@@ -13,6 +15,8 @@ main {
     flex-direction: column;
 
     width: 40vw;
+    
+    margin-top: 20vh;
 }
 
 .movie-title, .movie-sub-title {
@@ -22,9 +26,8 @@ main {
 }
 
 .movie-title {
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: clamp(1vw, 55px, 5vw);
-    font-weight: bolder;
+    font-size: clamp(1vw, 60px, 5vw);
+    font-weight: bold;
 }
 
 .movie-sub-title {
@@ -54,11 +57,11 @@ main {
 
 .movie-button:hover {
     background-color: #fff;
+    
     color: var(--accent-color);
 
     font-weight: 600;
 }
-
 
 .social-container ul {
     display: flex;
@@ -88,4 +91,8 @@ main {
     background-color: var(--accent-color);
 
     border-color: var(--accent-color);
+}
+
+.social-container {
+    margin-top: 20vh;
 }

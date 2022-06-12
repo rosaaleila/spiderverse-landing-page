@@ -1,0 +1,11 @@
+footer {
+    position: absolute;
+    bottom: 0;
+
+    font-family: Degular, sans-serif;
+    font-size: clamp(15px, 10px, .5vw);
+
+    color: #FFF;
+
+    padding: 0px 0px 10px 150px;
+}

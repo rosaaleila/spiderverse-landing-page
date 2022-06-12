@@ -1,0 +1,47 @@
+.card {
+    width: 20vw;
+    height: 30vh;
+
+    background-color: brown;
+
+    transition: linear .2s;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 5px 50px 5px 50px;
+}
+
+.card img {
+    height: 120%;
+    width: 110%;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5vw;
+    
+    margin: auto;
+}
+
+.card img:hover {
+    filter: drop-shadow(2px 2px 2px #000);
+    
+    margin-bottom: 50px;
+}
+
+.container-cards {
+    display: flex;
+    gap: 30px;
+}
+
+h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    text-shadow: 1px 2px 2px #0004;
+
+    color: var(--accent-color);
+}

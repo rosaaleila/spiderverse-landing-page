@@ -1,0 +1,11 @@
+.name-line {
+    border: 2px solid var(--gwen-color);
+}
+
+.character-name, .name-line {
+    color: var(--gwen-color);
+}
+
+.picture-container {
+    background-color: var(--gwen-color);
+}

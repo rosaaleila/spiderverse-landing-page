@@ -1,0 +1,11 @@
+.name-line {
+    border: 2px solid var(--peter-color);
+}
+
+.character-name, .name-line {
+    color: var(--peter-color);
+}
+
+.picture-container {
+    background-color: var(--peter-color);
+}
