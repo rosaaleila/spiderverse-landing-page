@@ -15,7 +15,7 @@ Projeto realizado baseado no projeto de Landing Page do professor [Fernando Leon
 
 ![Screenshot da Página HOME](./imgs/screenshot.PNG)
 
-### Screenshot - Página de <br> escolha dos personagens
+### Screenshot - Página de escolha dos personagens
 
 ![Screenshot Página Personagens](./imgs/screenshot-characters.PNG)
 
