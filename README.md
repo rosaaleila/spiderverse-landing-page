@@ -6,10 +6,19 @@ Projeto realizado baseado no projeto de Landing Page do professor [Fernando Leon
 
 ## Itens futuros
 - [X] Página home
-- [ ] Página de personagens
+- [X] Página de personagens
 - [ ] Página de galeria
 - [ ] Página de vídeos
+- [ ] Responsividade
   
 ### Screenshot - Home
 
 ![Screenshot da Página HOME](./imgs/screenshot.PNG)
+
+### Screenshot - Página de <br> escolha dos personagens
+
+![Screenshot Página Personagens](./imgs/screenshot-characters.PNG)
+
+### Screenshot - Infos sobre o personagem
+
+![Screenshot Miles Morales](./imgs/screenshot-miles.PNG)

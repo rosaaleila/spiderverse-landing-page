@@ -1,5 +1,5 @@
 main {
-    flex-grow: 1;
+    flex-grow: 2;
 
     display: flex;
     justify-content: space-between;
@@ -93,10 +93,6 @@ main {
     border-color: var(--accent-color);
 }
 
-.social-container {
-    margin-top: 20vh;
-}
-
 @media (max-width:800px) {
     .content-container{
         display: flex;
@@ -123,7 +119,7 @@ main {
         width: 80vw;
         height: 10vh;
 
-        font-size: .7rem;
+        font-size: .8rem;
 
         transform: translateY(20vh);
     }

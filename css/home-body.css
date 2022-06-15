@@ -12,13 +12,16 @@ body {
 
 @media (max-width:800px) {
     body{
+
         padding: 30px 30px 30px 30px;
 
         background-image: url(../imgs/fundo.jpg);
         background-color: #0009;
-        background-blend-mode: darken;
-        background-position: center;
+        background-blend-mode: multiply;
+        background-position: center right;
         background-size: cover;
+
+        background-repeat: no-repeat;
 
     }
 }
